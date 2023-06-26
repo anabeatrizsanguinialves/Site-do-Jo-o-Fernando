@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manshine City</title>
+    <link rel="stylesheet" href="reset.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Farro:wght@400;500;700&family=Roboto+Slab&family=Rubik+Pixels&display=swap" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+      <link rel="stylesheet" href="fisic.css">
+  </head>
+
+ <body>
+    <header class="cabeção">
+
+        <div class="container">
+          <input type="checkbox" id="menu" class="container_botao">
+          <label for="menu">
+             <span class="menuzin container_image"></span>
+          </label>
+             <ul class="lista-menu">
+               <li class="lista-menu__titulo">Saiba mais...</li>
+               <li class="lista-menu__idem">
+                <a href="#" class="lista-menu__link">Partidas</a>
+              </li>
+              <li class="lista-menu__idem">
+               <a href="#" class="lista-menu__link">Formações</a>
+              </li>
+              <li class="lista-menu__idem">
+                <a href="#" class="lista-menu__link">Jogadores</a>
+              </li>
+              <li class="lista-menu__idem">
+                <a href="#" class="lista-menu__link">Uniformes</a>
+              </li>
+              <li class="lista-menu__idem">
+                <a href="#" class="lista-menu__link">Mestres</a>
+              </li>
+              <li class="lista-menu__idem">
+                <a href="#" class="lista-menu__link">Historia</a>
+              </li>
+          </ul>
+          <img src="imagens do site do city/manshine-city.svg" alt="logo do city" class="container_image">
+        </div>
+
+       <div class="container">
+        <a href="#"><img src="imagens do site do city/camisa.svg" alt="uniformes do time" class="container_image"></a>
+        <a href="#"><img src="imagens do site do city/bandeira.svg" alt="nacionalidades" class="container_image"></a>
+        <a href="#"><img src="imagens do site do city/jogador.svg" alt="jogadores" class="container_image"></a>
+       </div>
+    </header>
+     <section class="banner">
+      <h2 class="banner__titulo">O que procura?</h2>
+      <p class="banner__texto">Noticias mais recentes? Tudo sobre nossos jogadores? Placares ou camisetas? Tudo voçê encontra aqui!!!</p>
+      <input type="search" class="banner__pesquisa" placeholder="O que vai ser hoje?">
+     </section>
+
+     <section class="carrossel">
+        <h2 class="carrossel__titulo">Jogadores Atuais</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="imagens do site do city/prince.svg" alt="foto do prince"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/agi.svg" alt="foto do agi"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/nagi.svg" alt="foto do nagi"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/reo.svg" alt="foto do reo"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/chigiri.svg" alt="foto do chigiri"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/wanima.svg" alt="foto do wanima"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/taiga.svg" alt="foto do taiga"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/nio.svg" alt="foto do nio"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/hajime.svg" alt="foto do hajime"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/reiji.svg" alt="foto do reiji"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/kairu.svg" alt="foto do kairu"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/driver.svg" alt="foto do driver"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/Swift.svg" alt="foto do swift"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/Busby.svg" alt="foto do busby"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/arthur.svg" alt="foto do arthur"></div>
+    <div class="swiper-slide"><img src="imagens do site do city/damon.svg" alt="foto do damon"></div>
+    ...
+  </div>
+  
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+     </section>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+    </script>
+ </body>
+</html>

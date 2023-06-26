@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
+:root {
+    --cor-de-fundo: #87CEFA;
+    --cinza: #c0ccd2;
+    --white: #ffffff;
+    --bluezao: #005ab4;
+    --cinzao: #1C1C1C;
+    --azul-morto: #002769;
+    --amarelinho: #efe94e;
+    --azulzinho: #bae3fd;
+    --black: #000000;
+    --laranjinha: #e3d03c;
+    --fonte-principal: "Farro";
+   
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
